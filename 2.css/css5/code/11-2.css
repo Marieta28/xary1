@@ -1,0 +1,39 @@
+#wrapper {
+    width: 800px;
+    height: 800px;
+    background-image: linear-gradient(rgb(184,184,184), rgb(249,249,249) );
+    padding-top: 5px;
+    margin:auto;
+    margin-top: 50px;}
+#header,#footer{
+ width:780px;
+ height: 100px;
+ margin:10px;}
+#header{background-color:rgb(103,103,103);}
+h1{ margin: 0;
+    padding: 0;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    left:40%;}
+#container{height: 70%;}
+#nav{
+ display: flex;
+ background-color:rgb(186,186,186);
+ margin-top: 0%;
+ float:left;
+ margin-top: 0%;
+ margin-bottom: 10px;
+ margin-right: 0%;
+ margin-left: 10px;
+ height: 75%;
+ width: 37.5%;}
+#content{background-color:rgb(138,138,138);
+ margin-top: 0%;
+ margin-bottom: 10px;
+ margin-right: 10px;
+ margin-left: 0%;
+ width: 60%;
+ float: right;
+ height: 100%;}
+#footer{background-color:rgb(165,165,165); clear:both;}

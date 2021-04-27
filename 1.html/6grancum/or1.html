@@ -1,0 +1,79 @@
+ <head>
+ <title>HTML ձևերը</title>
+ </head>
+ <body>
+ <form action="program.php" enctype="multipart/form-data"
+ method="post" name="test" target="_blank">
+ <fieldset title="Գրանցում">
+ <legend align="right">Գրանցում</legend>
+ Անուն: ............
+ <input type="text" name="name1" value="Ձեր անունը"><br>
+ Ազգանուն: .....
+ <input type="text" name="Reg_surname"
+ value="Ձեր Ազգանունը"><br>
+ Էլ. հասցե: ......
+ <input type="text" name="login" size="20" maxlength="40"
+ value="<25 պայմանանշան" size="14"><br>
+ Գաղտնաբառ:
+ <input type="password" name="pword"
+ value="Գաղտնաբառ"> <br>
+ Սեռը:
+ <input name="Gender" type="radio" value="man" id="g1">
+ <label for="g1">Արական</label>
+ <input name="Gender" type="radio" value="woman" id="g2">
+ <label for="g2">Իգական</label><br>
+ Տարիքը:
+ <input type="text" name="Age" value="18"
+ size="3" maxlength="2"><br>
+ </fieldset>
+ <fieldset title="Լրացուցիչ տեղեկություններ">
+ <legend align="right">Լրացուցիչ տեղեկություններ</legend>
+ Ծննդավայրը:
+ <select name="marz" size="1">
+ <optgroup label="Երևան"></optgroup>
+<option value="er">Երևան</option>
+ <optgroup label="Արարատ">
+ <option value="ar">Արտաշատ</option>
+ <option value="ma">Մասիս</option>
+ </optgroup>
+ <optgroup label="Լոռի">
+ <option value="sp">Սպիտակ</option>
+ <option value="st">Ստեփանավան</option>
+ <option value="va">Վանաձոր</option>
+22
+ </optgroup>
+ </select><br>
+ Ձեր լուսանկարը:
+ <input name="foto" type="file" size="50" accept="image/*"><br>
+ Ձեր մայրենի լեզուն:<br>
+ <input type="radio" name="lang1" value="am1" checked id="r1">
+<label for="r1">Հայերեն </label>
+ <input type="radio" name="lang1" value="en1" id="r2">
+<label for="r2">Անգլերեն </label>
+ <input type="radio" name="lang1" value="ru1" id="r3">
+<label for="r3">Ռուսերեն</label>
+ <input type="radio" name="lang1" value="fr1" id="r4">
+<label for="r4"> Ֆրանսերեն</label><br>
+ Ո՞ր լեզուներին եք տիրապետում:<br>
+ <label><input type="checkbox" name="lang[]"
+ value="am" checked> Հայերեն</label>
+ <label><input type="checkbox" name="lang[]"
+ value="en"> Անգլերեն</label>
+ <label><input type="checkbox" name="lang[]"
+ value="ru" checked> Ռուսերեն</label>
+ <label><input type="checkbox" name="lang[]"
+ value="fr"> Ֆրանսերեն</label><br>
+ Լրացուցիչ տեղեկություններ:<br>
+ <textarea cols="25" rows="2" name="about" wrap="off" >
+ Ձեր մասին</textarea><br />
+ </fieldset>
+ <button type="submit">
+ <img src="icon_enter.jpg" valign ="middle" height="10"
+ alt="Սեղմեք՝ ձևը փոխանցելու համար">
+ Գրանցվել
+ </button>
+ <input type="reset" name="reset" value="Մաքրել"
+ align="right" alt="Սեղմեք՝ ձևը մաքրելու համար">
+ </form>
+ </body> 
+</html>

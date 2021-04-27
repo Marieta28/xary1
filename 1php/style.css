@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.element {
+  margin-bottom: 20px;
+}
+.title {
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  background: #51f538;
+}
+.title:hover {
+  background: #e2f01be7;
+}
+.tox {
+  border: none;
+  width: 300px;
+}
+
+.arjeq {
+  border-bottom: 1px solid #51f538;
+  margin-top: 10px;
+  padding: 5px;
+}
+.arjeq:hover {
+  border-bottom: 1px solid #e2f01be7;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but {
+  padding: 10px 15px;
+  border: 1px solid #51f538;
+  color: #51f538;
+  background: #fff;
+  font-size: 16px;
+}
+.but:hover {
+  border: 1px solid #e2f01be7;
+  color: #e2f01be7;
+  background: #fff;
+}

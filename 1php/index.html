@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>PHP Թեստ</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="test.php">
+</head>
+
+<body>
+	<container class="container">
+		<form method="post" action="test.php">
+			<div class="element">
+				<p class="title"><strong>Հարց №1:</strong> Նշվածներից որն է PHP-ի տվյալների տիպ?</p>
+				<p class="arjeq"><input type="radio" name="type1" value="arai"> arai</p>
+				<p class="arjeq"><input type="radio" name="type1" value="source"> source</p>
+				<p class="arjeq"><input type="radio" name="type1" value="boolean "> boolean </p>
+				<p class="arjeq"><input type="radio" name="type1" value="dabl"> dabl</p>
+			</div>
+			<div class="element">
+				<p class="title"><strong>Հարց №2:</strong> Որն է PHP-ի ամենաերկար(ըաստ բառի երկարության) տվյալների տիպը?</p>
+				<p class="arjeq"><input class="tox" type="text" name="type2" placeholder="Գրեք այստեղ պատասխանը" /></p>
+			</div>
+			<div class="element">
+				<p class="title"><strong>Հարց №3:</strong> Գոյություն ունի արդյոք PHP-ում NULL տիպի տվյալների տիպ?</p>
+				<p class="arjeq"><input type="radio" name="type3" value="այո"> այո</p>
+				<p class="arjeq"><input type="radio" name="type3" value="ոչ"> ոչ</p>
+			</div>
+			<div class="element">
+				<p class="title"><strong>Հարց №4:</strong> Նշվածներից որը PHP-ի գլոբալ փոփոխական չէ?</p>
+				<p class="arjeq"><input type="radio" name="type4" value="GOOGLE"> GOOGLE</p>
+				<p class="arjeq"><input type="radio" name="type4" value="GLOBALS"> GLOBALS</p>
+				<p class="arjeq"><input type="radio" name="type4" value="SERVER"> SERVER</p>
+				<p class="arjeq"><input type="radio" name="type4" value="FILES"> FILES</p>
+				<p class="arjeq"><input type="radio" name="type4" value="COOKIE"> COOKIE</p>
+			</div>
+			<div class="element buttons">
+				<p><input class="but" type="submit" value="Ուղարկել պատասխանները" /></p>
+			</div>
+		</form>
+	</container>
+</body>
+</html>

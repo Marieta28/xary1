@@ -1,0 +1,25 @@
+
+#vernagir{ 
+    font-family: cursive;
+    font-weight: bold;
+    line-height:1em;
+    font-size: 1.5em;
+}
+.parberutyun{ 
+    letter-spacing:5px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: Courier New;
+    line-height:2em;
+    font-size: 1em;
+}
+.parberutyun1{
+    letter-spacing:0;
+    margin-top: 1em;
+    line-height:0em;
+    font-weight: 545;
+    font-family: serif;
+    list-style: none;
+    text-indent: 3em;
+    font-size: 1.2em;
+}

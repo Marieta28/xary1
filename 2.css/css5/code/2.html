@@ -1,0 +1,40 @@
+<!DOCETYPE html>
+    <html>
+        <head>
+        <title>z-index</title>
+            <style type="text/css">
+                div{
+                    font-size: 24px;
+                    width:134px;
+                    height:91px;
+                    border:1px solid;
+                    }
+                .das1 {
+                    z-index:10;
+                    position:absolute;
+                    top:29px;
+                    left:72px;
+                    background:rgb(76,76,76);
+                    }
+                .das2 {
+                    z-index:5;
+                    position:absolute;
+                    top:73px;
+                    left:141px;
+                    background:rgb(29,29,29);
+                    }
+                .das3 {
+                    z-index:-1;
+                    position:absolute;
+                    top:37px;
+                    left:168px;
+                    background:rgb(212,212,212);
+                    }
+            </style>
+        </head>
+        <body>
+            <div class="das1">z-index:10</div>
+            <div class="das2">z-index:5</div>
+            <div class="das3">z-index:-1</div>
+        </body>
+    </html>
